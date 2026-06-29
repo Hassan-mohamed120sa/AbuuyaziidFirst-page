@@ -1,0 +1,50 @@
+:root{
+  --green:hsl(75,94%,57%);
+  --white:hsl(0,0%,100%);
+  --grey-700:hsl(0,0%,20%);
+  --grey-800:hsl(0,0%, 12%);
+  --grey-900:hsl(0,0%,8%);
+}
+
+body{
+  background-color: var(--grey-900);
+  font-size: 14px;
+  color: var(--white);
+  
+}
+
+main{
+  background-color: var(--grey-800);
+  justify-content: center;
+  justify-content: center;
+  align-content: start;
+  
+}
+
+
+img{
+  border-radius: 50%;
+  width: 100px;
+  justify-content: center;
+}
+
+
+ul {
+ background-color: var(--grey-700);
+ color: var(--white);
+ list-style: none;
+ align-content: center;
+ justify-content: center;
+}
+
+a{
+  background-color: var(--grey-800);
+  text-decoration: none;
+  color: var(--white);
+  display: block;
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
